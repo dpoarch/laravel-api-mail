@@ -29,12 +29,13 @@ POST http://127.0.0.1:8000/api/send
 
 {
     "name":"",
-    "email":"nevored01@gmail.com",
-    "subject": "Test Mailer123",
-    "message":"This is a sample test mail run",
+    "email":"testgmailer@mailinaitor.com",
+    "subject": "Laravel Test Mail",
+    "message":"This is a sample test mail message..",
     "attachment": ""
 }
 
 ```
+attachment json should be a base64 string
 
 2. Open Horizon using `php artisan horizon` make sure the Redis is open.
