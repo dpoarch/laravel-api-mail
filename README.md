@@ -6,6 +6,7 @@ To setup the following application please run the following command on your comm
 
 ```
 
+rename .env.replace to .env
 composer install
 php artisan passport:install
 php artisan passport:keys
